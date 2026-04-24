@@ -2,7 +2,7 @@
 
 English | [简体中文](#简体中文)
 
-**A Multi-functional RF Expansion Board for ESP32-2432S028 (Cheap Yellow Display, CYD)**
+**A Multi-functional RF Expansion Board for ESP32-2432S028 (Cheap Yellow Display, CYD) and NM-CYD-C5**
 
 The NM-RF-HAT is a multi-functional Radio Frequency (RF) expansion board specifically designed for the ESP32-2432S028, commonly known as the "Cheap Yellow Display" or CYD. This repository aims to provide hardware design files, documents and related resources for the NM-RF-HAT, supporting developers and enthusiasts in RF experimentation and project development.
 
@@ -11,6 +11,10 @@ The NM-RF-HAT is a multi-functional Radio Frequency (RF) expansion board specifi
 The primary goal of the NM-RF-HAT is to simplify the process of RF project development and experimentation by integrating multiple commonly used RF modules onto a single, compact PCB. It effectively addresses the challenges of complex wiring and potential pin conflicts often encountered in traditional development, offering an efficient and integrated hardware solution for various RF applications.
 
 This expansion board is particularly well-suited for projects utilizing firmware such as [BruceDevices](https://github.com/BruceDevices/firmware) and [ESP32Marauder](https://github.com/justcallmekoko/ESP32Marauder), significantly enhancing the functionality and ease of use of these open-source tools.
+
+The NM-RF-HAT board already supports ESP32-2432S028 devices and our [NM-CYD-C5](https://github.com/RockBase-iot/NM-CYD-C5) board.
+
+![NM-RF-HAT pinout](Documentation/pics/NM-RF-HAT-pinout.png)
 
 ## Key Features
 
@@ -29,20 +33,35 @@ The NM-RF-HAT integrates a variety of popular RF modules, providing extensive wi
 
 ## Getting Started
 
-This section will provide detailed guidance on how to connect the NM-RF-HAT to your CYD and begin RF experimentation. Specific content will be updated upon the release of hardware design files.
+This section will provide detailed guidance on how to connect the NM-RF-HAT to your CYD and begin RF experimentation. Specific content will be updated upon the release of hardware design files, you can get sch and Usermanual from `Documentation`.
 
 ## Hardware Resources
 
 This section will include the schematics and other hardware design files for the NM-RF-HAT. Based on community discussions, the relevant schematics are expected to be released soon.
 
+## Common Questions & Answers
+
+If you meet problem with NM-RF-HAT, you can refer to the blog [NM-RF-HAT FAQ - Common Questions & Answers](https://rockbase.shop/blogs/tech-news/nm-rf-hat-faq) or [NM-RF-HAT FAQ](NM-RF-HAT%20FAQ.md) first.
+
+## Where to buy?
+
+You can get the NM-CYD-C5 from RockBase Aliexpress and Shopify.
+
+- [RockBase IoT Store](https://www.aliexpress.com/store/1105401362)
+- [RockBase Shop](https://rockbase.shop/products/nm-rf-hat)
+
+
 ## Community & Support
 
 *   **Reddit Communities:** Join discussions on the [r/esp32](https://www.reddit.com/r/esp32/) and [r/brucefw](https://www.reddit.com/r/brucefw/) subreddits to get the latest information and community support.
 *   **Thingiverse:** Find 3D printable cases for the NM-RF-HAT and CYD combination, such as [this design](https://www.thingiverse.com/thing:7305463).
+*  **[HaleHound-CYD](https://github.com/JesseCHale/HaleHound-CYD):** This project already supports NM-RF-HAT and ESP32-2432S028.
 
 ## Contributing
 
 We highly welcome contributions to this project! Please feel free to submit Pull Requests, open Issues, or share your valuable ideas.
+
+---
 
 # 简体中文
 
@@ -55,6 +74,8 @@ NM-RF-HAT 是专为 ESP32-2432S028 (俗称“CYD”) 设计的一款多功能射
 NM-RF-HAT 的核心目标是通过将多个常用射频模块集成到一块紧凑的 PCB 上，从而简化射频项目的开发和实验过程。它有效解决了传统开发中复杂的布线和潜在的引脚冲突问题，为各类射频应用提供了一个高效且集成的硬件解决方案。
 
 该扩展板尤其适用于运行 [BruceDevices](https://github.com/BruceDevices/firmware) 和 [ESP32Marauder](https://github.com/justcallmekoko/ESP32Marauder) 等固件的项目，极大地提升了这些开源工具的功能性和易用性。
+
+NM-RF-HAT 扩展板已支持 ESP32-2432S028 设备以及我们的 [NM-CYD-C5](https://github.com/RockBase-iot/NM-CYD-C5) 开发板。
 
 ## 主要特性
 
@@ -73,16 +94,28 @@ NM-RF-HAT 集成了多种流行的射频模块，提供广泛的无线通信能�
 
 ## 快速入门
 
-本节将提供详细的指南，说明如何将 NM-RF-HAT 连接到您的 CYD，并开始进行射频实验。具体内容将在硬件设计文件发布后更新。
+本节将提供详细的指南，说明如何将 NM-RF-HAT 连接到您的 CYD，并开始进行射频实验。具体内容将在硬件设计文件发布后更新，您可以从 `Documentation` 目录获取原理图和用户手册。
 
 ## 硬件资料
 
-本节将包含 NM-RF-HAT 的原理图和其他硬件设计文件。根据社区讨论，相关原理图预计将很快发布 [1]。
+本节将包含 NM-RF-HAT 的原理图和其他硬件设计文件。根据社区讨论，相关原理图预计将很快发布。
+
+## 常见问题与解答
+
+如果在使用 NM-RF-HAT 时遇到问题，您可以先参考博客 [NM-RF-HAT FAQ - Common Questions & Answers](https://rockbase.shop/blogs/tech-news/nm-rf-hat-faq) 或 [NM-RF-HAT 常见问题](NM-RF-HAT%20FAQ.md)。
+
+## 购买渠道
+
+您可以通过 RockBase 的 Aliexpress 和 Shopify 商店购买 NM-RF-HAT。
+
+- [RockBase IoT Store](https://www.aliexpress.com/store/1105401362)
+- [RockBase Shop](https://rockbase.shop/products/nm-rf-hat)
 
 ## 社区与支持
 
 *   **Reddit 社区：** 参与 [r/esp32](https://www.reddit.com/r/esp32/) 和 [r/brucefw](https://www.reddit.com/r/brucefw/) 子版块的讨论，获取最新信息和社区支持。
 *   **Thingiverse：** 查找适用于 NM-RF-HAT 和 CYD 组合的 3D 打印外壳，例如 [此设计](https://www.thingiverse.com/thing:7305463)。
+*   **[HaleHound-CYD](https://github.com/JesseCHale/HaleHound-CYD)：** 该项目已支持 NM-RF-HAT 和 ESP32-2432S028。
 
 ## 贡献
 
